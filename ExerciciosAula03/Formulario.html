@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form action="script.php" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="name" />
+        </div>
+        <div>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso">
+                <option value="curso">Sistemas de Informacao</option>
+                <option value="curso">Engenharia de Software</option>
+                <option value="curso">Medicina</option>
+                <option value="curso">Odontologia</option>
+                <option value="curso">Enfermagem</option>
+            </select>         
+        </div>
+        <div>
+            <label for="email">RA:</label>
+            <input type="text" name="ra" id="ra" />
+        </div>
+        <div>
+            <label for="notama1">Nota Ma1:</label>
+            <input type="number" name="notama1" id="notama1" />
+        </div>
+        <div>
+            <label for="notamb1">Nota Mb1:</label>
+            <input type="number" name="notamb1" id="notamb1" />
+        </div>
+        <div>
+            <label for="notap1">Nota P1:</label>
+            <input type="number" name="notap1" id="notap1" />
+        </div>
+        <div>
+            <label for="notama1">Nota Ma2:</label>
+            <input type="number" name="notama2" id="notama2" />
+        </div>
+        <div>
+            <label for="notamb2">Nota Mb2:</label>
+            <input type="number" name="notamb2" id="notamb2" />
+        </div>
+        <div>
+            <label for="notap2">Nota P2:</label>
+            <input type="number" name="notap2" id="notap2" />
+        </div>
+        <div class="bonus">
+            <label for="combonus">Bonus</label> 
+            <input type="radio" name="bonus" id="combonus" />
+        </div>
+        <div class="presenca">
+            <label for="presenca">% de presenca em aula:</label>
+            <input type="number" name="presenca" id="presenca" />
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit">Enviar dados</button>
+        </div>
+    </form>
+</body>
+</html>

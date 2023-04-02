@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Carro</h1>
+	<form action="program.php" method="post">
+        <label for="tipo-veiculo">Tipo de veículo:</label>
+            <select name="tipo-veiculo" id="tipo-veiculo">
+                <option value="carro">Carro</option>
+                <option value="moto">Moto</option>
+             </select>
+
+		<label for="marca">Marca:</label>
+		<input type="text" id="marca" name="marca"><br>
+
+		<label for="modelo">Modelo:</label>
+		<input type="text" id="modelo" name="modelo"><br>
+
+		<label for="ano">Ano:</label>
+		<input type="text" id="ano" name="ano"><br>
+
+		<label for="preco">Preço:</label>
+		<input type="text" id="preco" name="preco"><br>
+
+		<input type="submit" value="Cadastrar">
+	</form>
+</body>
+</html>
